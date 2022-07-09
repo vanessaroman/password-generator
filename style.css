@@ -17,6 +17,10 @@ body {
   background-color: #f9fbfd;
 }
 
+#pass-criteria{
+  /* display: none; */
+
+}
 .wrapper {
   padding-top: 30px;
   padding-left: 20px;
