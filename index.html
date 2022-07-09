@@ -26,7 +26,6 @@
         </div>
         <div class="card-footer">
           <div id="pass-criteria">
-            <!-- criteria input selection -->
             <input type="checkbox" id="lowercase">
             <label for="lowercase">Lowercase Letters</label>
 
@@ -39,13 +38,17 @@
 
             <input type="checkbox" id="numbers" >
             <label for="numbers">Numbers</label>
-            </div>
+
+            <br>
+
+            <input type="number" id="length" min="8" max="128">
+            <label for="length">Password Length</label>
 
             <br>
 
             <input type="checkbox" id="special" >
             <label for="special">Special Characters</label>
-            </div>
+          </div>
 
           <button id="generate" class="btn">Generate Password</button>
         </div>
