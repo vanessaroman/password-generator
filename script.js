@@ -1,3 +1,4 @@
+// This function were created with the help of Traversy Media on youtube. Link here: https://www.youtube.com/watch?v=duNmhKgtcsI
 // Grabbing criteria elements in html
 const passEl = document.getElementById('password');
 const lowerEl = document.getElementById('lowercase');
